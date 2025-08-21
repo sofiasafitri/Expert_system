@@ -1,0 +1,22 @@
+# Mencegah Akses ke folder 'config' dan 'logs' dengan RewriteRule
+RewriteEngine On
+
+# Mencegah akses ke folder config/ dan logs/
+RewriteRule ^config/ - [F,L]
+RewriteRule ^logs/ - [F,L]
+
+# Mencegah akses ke file template.php
+RewriteRule ^(user|auth|dashboard|error)/template.php$ - [F,L]
+
+# Mencegah akses ke folder 'layout' dalam user, auth, dan dashboard
+RewriteRule ^(user|auth|dashboard)/layout/ - [F,L]
+
+# Mencegah akses ke file .htaccess itu sendiri
+<Files ".htaccess">
+    Require all denied
+</Files>
+
+# Mengalihkan ke halaman 403 jika ada akses yang dilarang
+# Contoh Base URL: 'http://localhost/project-name/'
+# Pastikan untuk mengganti URL pada file config/config.php agar sesuai dengan Base URL yang sama.
+ErrorDocument 403 http://localhost/expert-system/error/403.php
