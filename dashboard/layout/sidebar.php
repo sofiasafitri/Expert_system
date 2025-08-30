@@ -9,7 +9,7 @@
         </div>
         <div class="sidebar-menu">
             <div class="d-flex justify-content-center align-items-center gap-2">
-                <img src="<?= get_image_url(base_url('assets/img/static/logo-light-theme.png')); ?>" alt="Logo" class="rounded-2 theme-logo" height="52" width="52">
+                <img src="<?= get_image_url(base_url('assets/img/static/logo-light-an.png')); ?>" alt="Logo" class="rounded-2 theme-logo" height="52" width="52">
                 <h5 class="mb-0">Sistem Pakar<br>Anoreksia Nervosa</h5>
             </div>
 

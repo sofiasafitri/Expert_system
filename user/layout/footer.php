@@ -23,18 +23,6 @@ if ($contacts->num_rows > 0) {
                         <h4 class="text-white mb-0">Sistem Pakar Anoreksia Nervosa</h4>
                         <span>Metode Certainty Factor</span>
                     </div>
-
-                    <div class="d-flex flex-column gap-2 mb-4">
-                        <a class="link-footer d-flex gap-3 align-items-center" target="_blank" href="<?= "mailto:" . $contact_email; ?>">
-                            <span class="icon"><i class="bi bi-envelope"></i></span>
-                            <span><?= $contact_email; ?></span>
-                        </a>
-                        <a class="link-footer d-flex gap-3 align-items-center" target="_blank" href="<?= "https://wa.me/{$contact_phone}"; ?>">
-                            <span class="icon"><i class="bi bi-whatsapp"></i></span>
-                            <span><?= $contact_phone; ?></span>
-                        </a>
-                    
-                    </div>
                 </div>
 
                 <div class="col-lg-6">
@@ -68,15 +56,14 @@ if ($contacts->num_rows > 0) {
                         </div>
 
                         <div class="col">
-                            <h5 class="text-white mb-2">Ikuti kami</h5>
+                            <h5 class="text-white mb-2">Hubungi Kami</h5>
 
-                            <div class="d-flex flex-wrap gap-2">
-                                <?php if (!empty($contact_instagram)): ?>
-                                    <a href="<?= htmlspecialchars($contact_instagram); ?>" target="_blank" class="btn btn-sm btn-footer icon">
-                                        <i class="bi bi-instagram"></i>
-                                    </a>
-                                <?php endif; ?>
-                            </div>
+                            <div class="d-flex flex-column gap-2 mb-4">
+                        <a class="link-footer d-flex gap-3 align-items-center" target="_blank" href="<?= "https://wa.me/{$contact_phone}"; ?>">
+                            <span class="icon"><i class="bi bi-whatsapp"></i></span>
+                            <span><?= $contact_phone; ?></span>
+                        </a>
+                     </div>
                         </div>
                     </div>
                 </div>

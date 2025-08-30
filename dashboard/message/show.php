@@ -83,7 +83,9 @@ $page_name = 'Pesan';
                                                     <i class="bi bi-info-circle"></i>
                                                 </button>
 
-                                                <a class="btn btn-sm btn-primary" href="mailto:<?= htmlspecialchars($row['email']); ?>" target="_blank"><i class="bi bi-send-fill"></i></a>
+                                                <a class="btn btn-sm btn-primary" href="mailto:<?= htmlspecialchars($row['email']); ?>" target="_blank" title="Kirim Email">
+                                                    <i class="bi bi-send-fill"></i>
+                                                </a>
 
                                                 <button type="button" class="btn btn-sm btn-danger btn-delete" data-delete-url="<?= base_url('dashboard/message/action.php?delete-message=' . htmlspecialchars($row['id'])); ?>"><i class="bi bi-trash-fill"></i></button>
                                             </div>

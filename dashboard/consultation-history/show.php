@@ -104,8 +104,12 @@ $page_name = 'Riwayat Konsultasi';
                                         <td>
                                             <div class="d-flex gap-2">
                                                 <a href="<?= base_url('dashboard/consultation-history/detail.php?consultation-id=' . htmlspecialchars($consultation_id)); ?>"
-                                                    class="btn btn-sm btn-info text-white">
+                                                    class="btn btn-sm btn-info text-white" title="Detail">
                                                     <i class="bi bi-info-circle"></i>
+                                                </a>
+                                                <a href="<?= base_url('dashboard/consultation-history/print_pdf.php?consultation-id=' . htmlspecialchars($consultation_id)); ?>"
+                                                    class="btn btn-sm btn-danger text-white" title="Cetak PDF" target="_blank">
+                                                    <i class="bi bi-file-pdf"></i>
                                                 </a>
                                             </div>
                                         </td>

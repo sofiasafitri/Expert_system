@@ -57,7 +57,7 @@ $page_name = 'Tentang';
                             </div>
 
                             <div class="content-section mb-5">
-                                <h5>🔍 Tentang Anoreksia nervosa</h5>
+                                <h5>🔍 Tentang Anoreksia Nervosa</h5>
                                 <p>Anoreksia nervosa adalah gangguan makan serius yang ditandai dengan pembatasan asupan makanan secara ekstrem, rasa takut berlebihan terhadap kenaikan berat badan, dan citra tubuh yang terdistorsi. 
                                 Kondisi ini dapat menyebabkan penurunan berat badan drastis, kelemahan fisik, gangguan hormonal, hingga komplikasi kesehatan serius. 
                                 Penanganan anoreksia nervosa memerlukan kombinasi terapi psikologis, perawatan medis, dan dukungan gizi.

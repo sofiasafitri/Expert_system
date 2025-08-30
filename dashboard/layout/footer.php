@@ -3,7 +3,7 @@
 <footer class="footer row align-items-center mt-auto">
     <div class="col-12 col-md-6">
         <div class="d-flex justify-content-center justify-content-md-start">
-            <p class="text-center text-md-start">&copy; <?= date('Y'); ?> Sistem Pakar</p>
+            <p class="text-center text-md-start">&copy; <?= date('Y'); ?> Sistem Pakar Anoreksia Nervosa</p>
         </div>
     </div>
     <div class="col-12 col-md-6">
